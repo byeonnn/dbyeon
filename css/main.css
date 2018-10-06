@@ -1,0 +1,91 @@
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+   font-size: 24px;
+}
+
+
+
+
+/*------- HOME ---------*/
+
+.banner-home {
+  width: 800px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+/*------- PROODCUT ---------*/
+
+#home {
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.navbar {
+  overflow: hidden;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+.nav .item {
+  display: inline;
+  padding: 10px;
+  font-size: 24px;
+  line-height:30px;
+  font: black;
+}
+
+.logo {
+	float: left;
+	font-size:30px;
+	line-height: 30px;
+}
+
+.banner {
+  width: 800px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.banner img {
+}
+
+h1{
+  font-family: 'Tajawal', sans-serif;
+  margin-top: 18px;
+  font-size: 48px;
+  line-height: 36px;
+}
+
+
+/*------- SERVICES---------*/
+
+#services { 
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+
+}
+
+
+.wrap .intro{
+  width: 70%;
+  margin: 0 auto;
+  line-height: 30px;
+
+}
+
+.box {
+  width: 31.3%;
+   margin: 30px 1%;
+  float: left;
+ }
