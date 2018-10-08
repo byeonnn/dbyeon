@@ -1,25 +1,33 @@
 /*------- HOME ---------*/
 .wrap {
   width: 100%;
-  margin: 0 auto;
+  margin: 10px auto;
   overflow: hidden;
    font-size: 24px;
 }
 
+
 .banner-home {
-  width: 800px;
   margin: 20px auto;
   text-align: center;
 }
 
-.title {
-  padding: 80px auto;
+.banner-home img {
+  width: 100%;
 }
+
+
+
+.title {
+  margin: 40px auto;
+  font-size: 32px;
+}
+
 /*------- PROODCUT ---------*/
 
 #home {
   font-family: 'karla', sans-serif;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 
 }
@@ -51,7 +59,6 @@
 .cart {
   transform: translateY(10px);
   -webkit-transform: translateY(10px);
-  ms-transform: translateY(10px);
 }
 
 
@@ -62,14 +69,20 @@
   padding: 10px;
 }
 
+.favicon {
+  width: 40px;
+  padding-top:15px;
+
+}
 
 .banner {
-  width: 800px;
-  margin: 70px auto;
+  width: 100%;
+  margin: 10px auto;
   text-align: center;
 }
 
 .banner img {
+  width: 100%;
 }
 
 h1{
@@ -78,41 +91,68 @@ h1{
   line-height: 36px;
 }
 
-
-/*------- SERVICES---------*/
-
-#services {
-  text-align: center;
-  font-family: 'PT Sans', sans-serif;
-
-
+.product {
+  width: 100%;
 }
+
+
+
+
+/*-------ORDER---------*/
+
+#order {
+  text-align: center;
+ }
 
 
 .wrap .intro{
   width: 70%;
   margin: 0 auto;
   line-height: 30px;
-
 }
 
 .box {
   width: 31.3%;
    margin: 7px 1%;
   float: left;
+  height: 300px;
  }
 
+ .box a{
+   text-decoration: none
+ }
+
+.product {
+  height: 250px;
+}
+
+.box-title {
+  width: 100%;
+  font-size: 18px;
+  margin: 5px;
+  padding-bottom: 20px;
+}
 
 
 
 
+ /*------- Product  ---------*/
 
- /*------- Product details ---------*/
 
+.p-column, .p-column2 {
+ width: 49%;
+ display: inline-block;
+ margin: 0;
+ vertical-align: top;
+ padding: 50px 10px;
+}
 
- #services {
-   text-align: center;
-   font-family: 'PT Sans', sans-serif;
+.p-column2 {
+  padding-left: 70px;
+}
+
+.p-column img{
+  width: 100%;
 }
 
 div{
@@ -128,17 +168,68 @@ h3 {
   font-size: 22px;
   font-weight: bold;
 }
+
 p, h2, h3, input{
   color:#000;
 }
-#product-detail{
-  width:100%;
+
+.text-description {
+  font-size: 18px;
+  line-height: 23px;
 }
 
-.p-column, .p-column2 {
-  width: 49%;
+.text-main {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+.button1 {
+    float: right;
+    margin-right: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*------- About ---------*/
+
+
+.text-bigtitle {
+  font-size:38px;
+  color: #D2D0D0;
   display: inline-block;
-  margin:0;
-  vertical-align: top;
-  padding: 50px 10px;
+  margin-bottom: 20px;
+}
+
+.box-column1, .box-column2{
+  width:49%;
+  margin-top: 50px;
+  display: inline-block;
+  float: left;
+}
+
+
+.box-column1 img {
+  width: 100%;
+}
+
+
+.box-column2 {
+  padding-left: 30px;
+}
+
+.container {
+  width: 100%;
+  float: left;
 }
