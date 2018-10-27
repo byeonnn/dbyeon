@@ -346,7 +346,8 @@ ul li{
 .imgslider img {
 	position: absolute;
 	left: 0;
-	width: 400%;
+	width: 600%;
+  height: 100%;
 	animation: slider 8s ease-in-out infinite alternate;
 }
 .arrow {
