@@ -11,7 +11,6 @@
     <style>
     @import url('https://fonts.googleapis.com/css?family=Karla|Lora|Montserrat|Roboto');
     @import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic|PT+Sans|Song+Myung|Tajawal');
-
     </style>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,24 +22,45 @@
   <body>
     <div id="home">
       <div class="wrap">
+
+  <!-- navigation bar -->
         <div class="navbar">
           <div class="logo"><a href="index.html">
             <img src="images/bunicon2.jpg" class="favicon" alt="bunbunicon"></a>
           </div>
           <ul class="nav">
             <li class="item"><a href="order.html">Order</a> </li>
-            <li class="item"><a href="about.html">About</a> </li>
-            <li class="item">Location</li>
-            <li class="item">Sign-in</li>
-            <li class="item"><a href="cart.html"><img src="images/cart.jpg" class="cart" alt="cart"><div class="carttotal"><h3></h3></div></a></li>
-          </ul>
+						<li class="item"><a href="about.html">About</a> </li>
+						<li class="item">Location</li>
+						<li class="item">Sign-in </li>
+            <li class="item"><img src="images/cart.jpg" class="cart" alt="cart"><div class="carttotal"><h3></h3></div></li>
+					</ul>
         </div>
       </div>
-      <div class="banner-home">
-        <h1 class="title">Welcome to Bun Bun Bakery</h1>
-          <img src="images/home-banner.jpg" alt="original">
+
+<!-- content -->
+      <div class="wrap">
+        <div class="wrap_cart"> Shopping Cart <hr>
+         <div class="wrap_cart_row">
+           <ul class="cart_column photos">
+             ITEMS
+           </ul>
+
+           <ul class="cart_column glz">GLAZING</ul>
+           <ul class="cart_column qtt">QUANTITY OF ROLLS</ul>
+           <ul class="cart_column pr">PRICE</ul>
+           <ul class="cart_column rv"></ul>
+         </div>
+
+
+
+       </div><br>
+       <div class="wrap_subtotal">Subtotal: </div><br>
+       <div class="button_proceed">PROCEED TO CHECKOUT</div>
       </div>
-    </div>
-    <script>createCarticon()</script>
+
+  </div>
+
+<script>createCarticon(); createCart()</script>
   </body>
 </html>
