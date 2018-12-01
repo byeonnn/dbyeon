@@ -1,0 +1,18 @@
+
+
+.text-box {
+	text-align: left;
+	margin-top: 50px;
+	}
+
+
+.text-box li {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
